@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Scrabble
 {
-    public partial class Form1 : Form
+    public partial class Scores : Form
     {
-        public Form1()
+        public Scores()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
